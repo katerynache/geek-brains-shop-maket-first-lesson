@@ -55,7 +55,7 @@
     align-items: center;
     justify-content: flex-end;
 
-    background-image: url(/img/intro-img.png);
+    background-image: url(img/intro-img.png);
     background-repeat: no-repeat;
     background-position: -212px bottom;
 }
@@ -80,6 +80,7 @@
     background-blend-mode: multiply;
     background-color: rgba(33, 22, 22, .7);
     text-align: center;
+    text-decoration: none; 
 }
 .category__modules:not(:last-child) {
     width: 360px;
@@ -92,28 +93,28 @@
     justify-content: space-between;
 }
 .women {
-    background-image: url(/img/women.png);
+    background-image: url(img/women.png);
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .men {
-    background-image: url(/img/men.png);
+    background-image: url(img/men.png);
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .kids {
-    background-image: url(/img/kids.png);
+    background-image: url(img/kids.png);
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .accesories {
-    background-image: url(/img/accesories.png);
+    background-image: url(img/accesories.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,4 +130,60 @@
 }
 .caregory__decor__accesories {
     width: 160px;
+}
+.content__banner {
+    text-align: center;
+    margin-top: 96px;
+}
+.content__heading {
+    font-size: 30px;
+    color: #222222;
+}
+.content__text {
+    font-size: 14px;
+    color: #9F9F9F;
+    margin-top: 6px;
+}
+.content__cards {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catalog__item {
+    width: 360px;
+    background-color: rgba(248, 248, 248, 1);
+    margin-top: 30px;
+}
+.catalog__item__text {
+    /* margin-top: 25px;
+    margin-left: 18px;
+    margin-right: 28px; */
+    margin: 25px 18px 0 18px;
+}
+.titel__item {
+    font-size: 16px;
+    color: #000000;
+}
+.description__item {
+    color: #5D5D5D;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.prices__item {
+    color: #F16D7F;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.pressbutton {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin-top: 48px;
+    padding: 14px 38px;
+    border: 1px solid #F26376;
+    text-decoration: none;
+    color: #F26376;
+    font-size: 19px;
 }
