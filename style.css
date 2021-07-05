@@ -186,4 +186,132 @@
     text-decoration: none;
     color: #F26376;
     font-size: 19px;
+    margin-bottom: 95px;
 }
+.privilege {
+    background-color: rgba(34, 34, 36, 1);
+}
+.ptivilege__boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.privilege__item {
+    width: 360px;
+    text-align: center;
+    padding: 103px 0;
+}
+.ptivilege__header {
+    font-size: 24px;
+    color: #FBFBFB;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+.privilege__text {
+    color: rgba(251, 251, 251, 1);
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    opacity: .5;
+}
+.car {
+    margin-top: 28px;
+}
+.percent {
+    margin-top: 19px;
+}
+.crown {
+    margin-top: 25px;
+}
+.subscribe {
+    background: rgba(244, 244, 244, 0.7);
+    background-blend-mode: color;
+    background-image: url(/img/sea.png);
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+}
+.subscribe__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribe__card {
+    max-width: 360px;
+    padding-top: 86px;
+    display: flexbox;
+    text-align: center;
+    margin-bottom: 126px;
+}
+.foto__card {
+    align-content: center;
+    border-radius: 50%;
+}
+.foto__card {
+    text-align: center;
+}
+.text__card {
+    max-width: 360px;
+    padding: 40px 25px;
+    text-align: center;
+}
+.subscribe__header {
+    font-size: 18px;
+    text-align: center;
+    color: #222224;
+}
+.decor__subscribe {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+}
+.search-field {
+    padding: 10px;
+    border: none;
+    background-color: #E1E1E1;;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* color: gold; */
+  }
+  .search-field::placeholder {
+    padding-left: 10px;
+    color: #222224;
+    font-size: 12px;
+    opacity: 0.67;
+  }
+  .search-btn {
+    border: none;
+    background-color: #F16D7F;
+    border-radius: 0 20px 20px 0;
+    padding: 10px 20px;
+    color: #E1E1E1;
+  }
+  .search {
+    text-align: center;
+    margin-top: 32px;
+  }
+  .footer {
+    background-color: #222224;
+    padding: 30px 0;
+  }
+  .footer__pack {
+      display: flex;
+      justify-content: space-between;
+  }
+  .footer__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    opacity: .8;
+  }
+  .footer__item {
+      border-color: #FFFFFF;
+      background-color: #FFFFFF;
+      border-style: solid 1px;
+      padding: 10px;
+      text-decoration: none;
+  }
+  .footer__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+  
