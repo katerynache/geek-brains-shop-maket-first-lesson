@@ -226,7 +226,7 @@
 .subscribe {
     background: rgba(244, 244, 244, 0.7);
     background-blend-mode: color;
-    background-image: url(/img/sea.png);
+    background-image: url(img/sea.png);
     /* background-size: 100%; */
     background-repeat: no-repeat;
 }
