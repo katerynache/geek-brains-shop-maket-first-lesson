@@ -271,47 +271,141 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     /* color: gold; */
-  }
-  .search-field::placeholder {
+}
+.search-field::placeholder {
     padding-left: 10px;
     color: #222224;
     font-size: 12px;
     opacity: 0.67;
-  }
-  .search-btn {
+}
+.search-btn {
     border: none;
     background-color: #F16D7F;
     border-radius: 0 20px 20px 0;
     padding: 10px 20px;
     color: #E1E1E1;
-  }
-  .search {
+}
+.search {
     text-align: center;
     margin-top: 32px;
-  }
-  .footer {
+}
+.footer {
     background-color: #222224;
     padding: 30px 0;
-  }
-  .footer__pack {
+}
+.footer__pack {
       display: flex;
       justify-content: space-between;
-  }
-  .footer__text {
+}
+.footer__text {
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
     opacity: .8;
-  }
-  .footer__item {
+}
+.footer__item {
       border-color: #FFFFFF;
       background-color: #FFFFFF;
       border-style: solid 1px;
       padding: 10px;
       text-decoration: none;
-  }
-  .footer__item:not(:last-child) {
+}
+.footer__item:hover {
+    background-color: #EF5B70;
+}
+}
+.footer__item:not(:last-child) {
     margin-right: 8px;
 }
-
-  
+.arrivals {
+    background: #F8F3F4;
+}
+.arrivals__header {
+    display: flex;
+    justify-content: space-between;
+    height: 148px;
+}
+.arrivals__left {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding-top: 59px;
+}
+.arrivals__right {
+    margin-top: 65px;
+}
+.arrivals__home {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-decoration: none;
+}
+.decor__arrivals {
+    color: #F16D7F;
+}
+.content__navigation {
+    display: flex;
+    margin-top: 51px;
+    margin-bottom: 34px;
+    /* margin-bottom: 34px; потомучто есть отступ у карточек */
+}
+summary {
+    display: block;
+  }
+summary::-webkit-details-marker {
+    display: none;
+  }
+/* .navigation__center__trending::after {
+    content: '\25B6';
+    padding-right: 0.5em;
+    для примера, как может быть еще
+  } */
+.navigation__left {
+    display: flex;
+    width: 360px;
+}
+.navigation__left__filter {
+    margin: 0 11px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.fa-check {
+    color: #6F6E6E;
+}
+.navigation__center__trending {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-left: 48px;
+    margin-right: 12px;
+}
+.navigation__center {
+    display: flex;
+}
+.pagination__catalog {
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+    border: 1px solid #EBEBEB;
+    margin: 48px 0 96px 0;
+}
+.pagination a {
+    /* color: black; */
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination__number {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4; 
+}
+.pagination__number:hover {
+    color: #EF5B70;
+}
