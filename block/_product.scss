@@ -1,9 +1,11 @@
 $mainColor: #F16D7F;
+$mainColor70: #EF5B70;
 .margin {
     height: 128px;
 }
 .product {
     background-color: #F7F7F7;;
+    position: relative;
 }
 .product__img {
     display: flex;
@@ -27,14 +29,62 @@ $mainColor: #F16D7F;
     }
 }    
 .description {
-    position: relative;
+    // align-items: center;
+    text-align: center;
+    position: absolute;
+    margin: -40px auto 0;
+    &__exposition {
+        & h4 {
+            margin-top: 64px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: $mainColor;
+        }
+        &__line {
+            border: 1px solid $mainColor70;
+            margin: 12px auto;
+            width: 63px;
+            height: 3px;
+            background-color: $mainColor70;
+        }
+        & h3 {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            color: #4D4D4D;
+        }
+        & p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #5E5E5E;
+            margin: 48px 48px 0 48px;
+        }
+        & span {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: $mainColor70;
+        }
+    }
+.description__basket__navigation {
+    display: flex;
+    justify-content: center;
+}
+.description__basket__button {
+    padding: 0;
+  border: 1px solid $mainColor70;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 .box {
-    top: -100px;
-    position: absolute;
-    width: 1140px;
+    width: 1139px;
     border: 1px solid #E5E5E5;
-    $__span {
-        width: 641px;
+    padding-top: -100px;
+    &__span {
+        width: 664px;
+        text-align: center;
     }
 }
