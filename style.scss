@@ -228,6 +228,7 @@
     background-blend-mode: color;
     background-image: url(img/sea.png);
     /* background-size: 100%; */
+    background-position: center;
     background-repeat: no-repeat;
 }
 .subscribe__section {
@@ -408,5 +409,4 @@ summary::-webkit-details-marker {
 .pagination__number:hover {
     color: #EF5B70;
 }
-
 @import "block/product";
