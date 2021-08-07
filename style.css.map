@@ -4,7 +4,8 @@
     "sources": [
         "style.scss",
         "block/_product.scss",
-        "block/_cart.scss"
+        "block/_cart.scss",
+        "block/_registration.scss"
     ],
     "names": [],
     "file": "style.css"
