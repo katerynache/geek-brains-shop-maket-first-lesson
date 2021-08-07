@@ -721,4 +721,180 @@ hr {
   margin: 14px 23px 8px;
   width: 26px;
 }
+
+.cartfull {
+  margin-top: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cartfull__order__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 15px 15px 0px #E5E5E5;
+          box-shadow: 0px 15px 15px 0px #E5E5E5;
+  max-width: 652px;
+  max-height: 305px;
+  margin-bottom: 40px;
+}
+
+.cartfull__order__card__img {
+  max-height: 306px;
+}
+
+.cartfull__order__card__img img {
+  max-width: 262px;
+}
+
+.cartfull__order__card__text {
+  position: relative;
+  width: 390px;
+  margin: 22px 0 0 31px;
+}
+
+.cartfull__order__card__text h3 {
+  max-width: 262px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  margin-bottom: 42px;
+}
+
+.cartfull__order__card__text p {
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+  margin-bottom: 6px;
+}
+
+.cartfull__order__card__text p .decor__price {
+  color: #EF5B70;
+}
+
+.cartfull__order__card__text label {
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.cartfull__order__card__text input {
+  border: 1px solid #EAEAEA;
+  text-align: center;
+  margin-left: 24px;
+  padding: 1px 10px;
+}
+
+.cartfull__order__card__text button {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  border: none;
+  background: none;
+  width: 18px;
+  height: 18px;
+}
+
+.cartfull__order__card__text button i {
+  width: 18px;
+  height: 18px;
+}
+
+.cartfull__order__buttons {
+  margin-top: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 652px;
+}
+
+.cartfull__order__buttons input {
+  max-width: 236px;
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  padding: 16px 40px;
+}
+
+.cartfull__form__adress legend {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.cartfull__form__adress input {
+  width: 360px;
+  margin-top: 20px;
+  border: 1px solid #A4A4A4;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+  padding: 12px 0 15px 16px;
+}
+
+.cartfull__form__adress button {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4A4A4A;
+  background: none;
+  width: 100px;
+  text-align: center;
+  padding: 9px 0 11px;
+  margin-top: 24px;
+  border: 1px solid #A4A4A4;
+}
+
+.cartfull__form__checkout {
+  margin-top: 57px;
+  background: #F5F3F3;
+}
+
+.cartfull__form__checkout__box {
+  padding-top: 39px;
+  margin: 39px 44px 13px 44px;
+  border-bottom: 1px solid #E2E2E2;
+  text-align: right;
+}
+
+.cartfull__form__checkout__box__price {
+  font-size: 11px;
+  line-height: 13px;
+  color: #4A4A4A;
+  margin-bottom: 12px;
+}
+
+.cartfull__form__checkout__box__total {
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-bottom: 21px;
+}
+
+.cartfull__form__checkout__box__total span {
+  color: #F16D7F;
+  margin-left: 30px;
+}
+
+.cartfull__form__checkout__button {
+  background-color: #F16D7F;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  border: 1px solid #F16D7F;
+  padding: 15px 44px;
+  margin: 0 44px 42px;
+}
 /*# sourceMappingURL=style.css.map */
