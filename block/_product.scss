@@ -1,0 +1,112 @@
+$mainColor: #F16D7F;
+$mainColor70: #EF5B70;
+$mainColor76: #F26376;
+$mainColorwhite: #FFFFFF;
+.margin {
+    height: 128px;
+}
+.product {
+    background-color: #F7F7F7;
+}  
+.product__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & img {
+        width: 597px;
+        margin-bottom: 64px;
+    }
+    i {
+        color: #000000;
+        border: none;
+        padding: 12px 17px;
+        background-color: rgba(42, 42, 42, 0.15);
+    }
+    i:hover {
+        color: $mainColor;
+    }
+}
+
+.view {
+    border: 1px solid hsl(0, 0%, 92%);
+    margin: -64px auto 0;
+    width: 1159px;
+    background: $mainColorwhite;
+    display: flex;
+    justify-content: center;
+    &__box {
+        width: 555px;
+        text-align: center;
+        &__exposition {
+            &--line {
+                width: 64px;
+                background-color: $mainColor70;
+                border: solid 1px;
+                border-color: $mainColor70;
+                margin: 12px auto;
+            }
+        }
+    }
+    h4 {
+        margin-top: 64px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: $mainColor;
+    }
+    h3 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4D4D4D;
+        margin-bottom: 48px;
+    }
+    p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5E5E5E;
+        margin-bottom: 32px;
+    }
+    span {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: $mainColor;
+        margin-bottom: 65px;
+    }
+}
+hr {
+    margin: 65px auto;
+    color: #EAEAEA ;
+}
+.strainer {
+    &__basket {
+        display: flex;
+        justify-content: center;
+    }
+    i {
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+    details {
+        margin-left: 23px;
+        margin-right: 9px;
+        margin-bottom: 49px;
+    }
+    &__button {
+        color: $mainColor76;
+        border-color: #FF6A6A;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: $mainColorwhite;
+        padding: 14px 56px 14px 0;
+        margin-bottom: 65px;
+    }
+    .chipbasket {
+        color: $mainColor70;
+        margin: 14px 23px 8px;
+        width: 26px;
+    }
+}
