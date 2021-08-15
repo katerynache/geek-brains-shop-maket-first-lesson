@@ -1,0 +1,96 @@
+
+@mixin LOYALTY () {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 1);
+    ;
+}
+.registration {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+        &__form {
+            // max-width: 370px;
+            &__status {
+                legend {
+                    width: 360px;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #222222;
+                    margin-bottom: 20px;
+                }
+                label {
+                    font-weight: 300;
+                    font-size: 11px;
+                    line-height: 13px;
+                    color: rgba(0, 0, 0, 1);
+                    margin-right: 20px;
+                    input {
+                        border: 1px solid #A4A4A4;
+                        box-sizing: border-box;
+                        margin-right: 10px;
+                        margin-bottom: 35px;
+                        margin-top: 31px;
+                    }
+                }
+                &__input {
+                    width: 360px;
+                    padding: 12px 0 12px 16px;
+                    margin-bottom: 20px;
+                    border: 1px solid #A4A4A4;
+                }
+                &__input::placeholder {
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #B1B1B1;
+                }
+                p {
+                    width: 360px;
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #B1B1B1;
+                    margin-bottom: 39px;
+                }
+            }
+            button {
+                margin-left: 0;
+                cursor: pointer;
+                transition: 3s;
+                border-radius: 0;
+            }
+            button:hover {
+                padding: 40px 100px;
+                border-radius: 10px;
+                transform: rotate(360deg);
+                background-color: brown;
+            }
+        }
+        &__loyalty {
+            margin-left: 128px;
+            h3 {
+                @include LOYALTY();
+                margin-bottom: 22px;
+            }
+            p {
+                @include LOYALTY();
+                margin-bottom: 21px;
+            }
+            ul {
+                list-style-type: none;
+                li{
+                    @include LOYALTY();
+                    margin-bottom: 16px;
+                    .check {
+                        margin-right: 23px;
+                    }
+
+                }
+            }
+
+        }
+}
+
